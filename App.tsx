@@ -6,6 +6,7 @@ import { UCATIntro } from './components/UCATIntro';
 import { TutoringPlans } from './components/TutoringPlans';
 import { CompetitionSection } from './components/CompetitionSection';
 import { Faculty } from './components/Faculty';
+import { CompetitionShowcase } from './components/CompetitionShowcase';
 import { Footer } from './components/Footer';
 
 const App: React.FC = () => {
@@ -18,6 +19,7 @@ const App: React.FC = () => {
       <TutoringPlans />
       <CompetitionSection />
       <Faculty />
+      <CompetitionShowcase />
       <Footer />
     </div>
   );
