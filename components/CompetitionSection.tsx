@@ -13,6 +13,10 @@ export const CompetitionSection: React.FC = () => {
     <section className="p-3 bg-[#fcfcfc] space-y-4">
       <div className="flex items-center gap-2">
         <div className="w-1 h-4 bg-brand-orange rounded-full"></div>
+        <h3 className="text-base font-black text-gray-800 tracking-tight">YUSHI医学竞赛辅导方案</h3>
+      </div>
+      <div className="flex items-center gap-2">
+        <div className="w-1 h-4 bg-brand-orange rounded-full"></div>
         <h3 className="text-base font-black text-gray-800 tracking-tight">为什么参加医学竞赛？</h3>
       </div>
 

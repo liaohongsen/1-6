@@ -15,7 +15,7 @@ export const AboutUs: React.FC = () => {
         </p>
         
         <p className="text-[11px] text-gray-600 leading-relaxed text-justify">
-          提供多国联申服务，围绕<span className="font-black text-gray-800 bg-orange-50 px-1">“专业匹配—规划—申请落地—职发”</span>全链路。协助职业方向梳理与路径定位，让申请真正为职业发展服务。
+          提供多国联申服务，围绕<span className="font-black text-gray-800 bg-orange-50 px-1">“专业匹配—规划—申请落地—职业发展”</span>全链路。协助职业方向梳理与路径定位，让申请真正为职业发展服务。
         </p>
 
         <div className="bg-gradient-to-br from-orange-50/50 to-white p-3 rounded-2xl border border-orange-100/50 flex items-center justify-between">

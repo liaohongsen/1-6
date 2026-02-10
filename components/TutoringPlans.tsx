@@ -13,8 +13,10 @@ export const TutoringPlans: React.FC = () => {
       ],
       services: [
         "每节课60分钟 1v1 专项训练与方法讲解",
-        "作业批改与错因分析 / 模考诊断与薄弱项定位",
-        "针对性训练建议 / 助教全程督学"
+        "作业批改与错因分析",
+        "模考诊断与薄弱项定位",
+        "针对性训练建议与学习规划",
+        "每个学员配有助教督学，确保课后训练落地执行"
       ]
     },
     {
@@ -23,12 +25,15 @@ export const TutoringPlans: React.FC = () => {
       target: [
         "希望 UCAT 成绩具备强竞争力而非“达标”的学生",
         "不愿承担试错风险，以充分准备换取稳定发挥",
-        "需要长期训练，在速度、准确率与抗压上全面提升"
+        "需要长期训练，在速度、准确率与抗压上全面提升",
+        "希望通过多轮模考与反馈，持续拉高整体表现上限的学生"
       ],
       services: [
         "每节课60分钟 1V1 全模块系统训练与深度讲解",
-        "多轮模考分析与调整方案 / 作业逐题批改",
-        "长期学习节奏管理 / 目标院校分数策略建议"
+        "多轮模考分析与动态调整方案",
+        "作业逐题批改与专项强化",
+        "长期学习节奏管理与督学支持",
+        "针对目标院校的 UCAT 分数策略建议"
       ]
     }
   ];
@@ -91,7 +96,7 @@ export const TutoringPlans: React.FC = () => {
           <p className="text-lg font-black text-gray-900 mb-3">1,500 RMB / 节</p>
           <div className="bg-gray-50/50 p-3 rounded-lg text-left">
             <ul className="space-y-1">
-              {["已有基础，需要单项突破或考前调整", "模考后需要专业医学视角诊断", "希望先体验辅导方式"].map((item, idx) => (
+              {["已有一定基础，希望单项突破或短期调整策略", "模考后需要专业诊断，快速找出提分关键点", "希望在报长期课程前，先体验专业医学向辅导方式的学生"].map((item, idx) => (
                 <li key={idx} className="text-[9px] text-gray-500 flex gap-2">
                   <span className="text-gray-300">•</span> {item}
                 </li>
