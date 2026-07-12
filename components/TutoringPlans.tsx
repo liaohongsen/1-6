@@ -5,7 +5,7 @@ export const TutoringPlans: React.FC = () => {
   const plans = [
     {
       title: "方案一｜UCAT 10 节核心提升辅导",
-      price: "15,000 RMB",
+      price: "12,000 RMB",
       target: [
         "UCAT 首次备考，希望建立正确解题方法与节奏的学生",
         "需要明确各模块策略，避免盲目刷题",
@@ -20,8 +20,8 @@ export const TutoringPlans: React.FC = () => {
       ]
     },
     {
-      title: "方案二｜UCAT 20 节系统强化辅导",
-      price: "29,000 RMB",
+      title: "方案二｜UCAT 30 节系统强化辅导",
+      price: "30,000 RMB",
       target: [
         "希望 UCAT 成绩具备强竞争力而非“达标”的学生",
         "不愿承担试错风险，以充分准备换取稳定发挥",
